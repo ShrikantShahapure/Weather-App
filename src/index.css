@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  background-image: url('https://raw.githubusercontent.com/hosseinghafouri/weather-app-real-API/main/content/images/bg.jpg');
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(83, 195, 239), rgb(136, 188, 208));
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 #555;
+  width: 400px;
+  font-size: 16px;
+}
+
+.sub-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  border: 1px solid rgb(211, 211, 243);
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  align-items: center;
+  border-top: 1px solid black;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 16px;
+  align-items: center;
+}
+
+.fa-solid {
+  margin: 10px;
+}
+
+button:hover {
+  outline: none;
+  color: rgb(0, 0, 0);
+}
+
+.btn-1 {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(97, 155, 242);
+}
+
+.btn-2 {
+  margin: 10px;
+  padding: 15px;
+  width: 50%;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  background-color: blue;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(226, 230, 232), rgb(136, 188, 208));
+  color: black;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 #555;
+  width: 380px;
+  font-size: 16px;
+}
+
+.box header {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(0, 98, 136);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid blue;
+  padding: 20px 20px;
+}
+
+header i {
+  font-weight: 300;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.box .In-box {
+  margin: 20px 25px 30px;
+}
+
+.In-box input {
+  text-align: center;
+  border: 1px solid rgb(211, 211, 243);
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+input {
+  text-align: center;
+  border: 1px solid rgb(211, 211, 243);
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.sub-container :where(input, button) {
+  width: 90%;
+  height: 60%;
+  outline: none;
+  border: none;
+  padding: 20px;
+}
+
+button {
+  background-color: rgba(49, 131, 213, 0.872);
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 19px;
+  cursor: pointer;
+  font-weight: 400;
+  color: white;
+}
+
+.btn {
+  width: 50%;
+  height: 60%;
+  font-size: 15px;
+}
+
+.sep-box {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: rgb(131, 124, 124);
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+}
+
+.tempreture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-right: 40px;
+  font-size: 25px;
+}
+
+span {
+  font-size: 15px;
+   margin: 6px;
+}
+
+.logo {
+  width: 120px;
+  height: 140px;
+  margin: 20px auto;
+}
+
+.location {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.wheather-info {
+  font-size: 18px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5px 10px;
+  align-items: center;
+}
+
+i  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 10%; 
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.weather-part {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-part img{
+  max-width: 100px;
+  margin-top: 25px;
+}
+
+.tempreture{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.weather-part .tempreture .number{
+  display: flex;
+  font-weight: 500;
+}
+
+.weather-part .tempreture .number{
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.weather-part .tempreture .degree{
+  font-size: 40px;
+  display: block;
+  margin: 10px 5px 0 0;
+}
+
+.weather-part .weather{
+  font-size: 21px;
+  text-align: center;
+  margin: -5px 20px 15px;
+}
+
+.weather-part .location{
+  display: flex;
+  font-size: 19px;
+  padding: 0 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  align-items: flex-start;
+}
+
+.location i{
+  font-size: 22px;
+  margin: 4px 5px 0 0;
+}
+
+.weather-part .bottom-details{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+}
+
+.bottom-details .column{
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.column i{
+  color: #5DBBFF;
+  font-size: 40px;
+}
+
+.column.humidity{
+  border-left: 1px solid #ccc;
+}
+
+.column .details{
+  margin-left: 3px;
+}
+
+.details .tempreture, .humidity span{
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: -3px;
+}
+
+.details .tempreture, .humidity span{
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: -3px;
+  font-weight: 600;
+}
+
+.details .tempreture .degree{
+  margin: 0;
+  font-size: 10px;
+  padding: 0 2px 0 1px;
+}
+
+.column .details p{
+  font-size: 14px;
+  margin-top: -6px;
+}
+
+.humidity {
+  font-size: 45px;
+}
